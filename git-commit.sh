@@ -12,12 +12,12 @@ read -p "Commit."
 git commit -a -m'Update'
 printf "\n"
 
-#read -p "Sync."
+read -p "Sync."
 
-#git pull -v --progress "origin"
-#printf "\n"
+git pull -v --progress "origin"
+printf "\n"
 
-#git push -v --progress "origin" main:main
-#printf "\n"
+git push -v --progress "origin" main:main
+printf "\n"
 
 read -p "Complete."
