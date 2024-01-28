@@ -12,7 +12,7 @@ read -p "Commit."
 git commit -a -m'Update'
 printf "\n"
 
-read -p "Sync."
+#read -p "Sync."
 
 git pull -v --progress "origin"
 printf "\n"
