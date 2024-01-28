@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace cs_file_search
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
         }
